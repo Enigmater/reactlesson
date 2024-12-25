@@ -48,6 +48,16 @@ const Navbar = () => {
 								Contacts
 							</NavLink>
 						</li>
+						<li className="nav-list__item">
+							<NavLink
+								to="/profile"
+								className={({ isActive }) =>
+									isActive ? activeLink : normalLink
+								}
+							>
+								Profile
+							</NavLink>
+						</li>
 					</ul>
 				</div>
 			</div>
